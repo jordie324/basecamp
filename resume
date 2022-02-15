@@ -1,0 +1,434 @@
+<html lang="en"><head>
+
+<!-- online collaboration: Basecamp -->
+
+<meta charset="utf-8">
+
+
+<link rel="dns-prefetch" href="https://dash.37signals.com">
+<link rel="preconnect" href="https://dash.37signals.com">
+
+
+
+  <link rel="stylesheet" type="text/css" href="/assets/main-40ebd22c6af986abe2f0f8c49de034c0186d382f09986d69c5fbc1d3c5ec91e0.css">
+
+
+  <link rel="stylesheet" type="text/css" href="/assets/pages/how-it-works-e36e391aeea3a013b459b99c6440e7c9b7cd36784cf73a7578143e412487077e.css">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/assets/main-4943776043264d6f48e9af97f3b5a2028e472be7ed33af9334fa900345a385f4.js"></script>
+
+<script async="" defer="" data-domain="basecamp.com" src="https://basecamp.com/js/index.outbound-links.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/assets/plyr-b1558f18caffe75fa87ddbd17e7730bd2141141491536a00fc50662a2810a4ee.css">
+<script defer="" type="text/javascript" src="/assets/plyr.min-657fd9afbbc3e213967b28be68a297a92799926ccce7b77e8133df43b124c5c4.js"></script>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(){
+    const players = Plyr.setup('.plyr', {
+      iconUrl: '/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg',
+      settings: ['captions', 'quality', 'loop']
+    });
+  });
+</script>
+
+
+
+
+
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/basecamp-icon-196x196.png">
+
+
+
+  
+  <title>How Basecamp works, what it's like to organize your projects &amp; teams in one place</title>
+  
+
+
+
+  <meta name="description" content="Instead of having stuff scattered all over the place — strewn across separate products, lost in inboxes, or scrawled on stickies or notepads — Basecamp brings everything your company’s working on under one roof.">
+
+
+
+
+  
+    <link rel="canonical" href="https://basecamp.com/how-it-works">
+  
+
+
+
+
+
+
+
+
+
+
+
+<meta name="d9d68575850a468800f9376d0cfab27f5d898ba3" content="dd17d033afbe4e1a90863d89a8b60e1cc0f912e7">
+<meta name="robots" content="noodp">
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Basecamp",
+  "url": "https://basecamp.com",
+  "logo": "https://basecamp.com/assets/about/press/standard-basecamp-logo-99cc6f352739d6b51eaa905e6022cb45215b7a9151ca53fc5218109485149971.svg",
+  "sameAs": [
+    "https://twitter.com/basecamp",
+    "https://www.linkedin.com/company/37signals",
+    "https://www.youtube.com/user/37signals",
+    "https://instagram.com/basecamp/",
+    "https://www.facebook.com/37signals",
+    "https://plus.google.com/+basecamp"
+  ],
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "email": "support@basecamp.com",
+    "contactType": "customer support",
+    "url": "https://basecamp.com/support"
+  }]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://basecamp.com",
+  "name": "Basecamp",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://basecamp.com/help/3/search?query={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+<meta name="theme-color" content="#ffe000">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+
+</head>
+
+<body data-controller="tracking" class=" hiw">
+  <div class="tracking tracking--hidden" data-target="tracking.permissionDialog" data-hidden-class="tracking--hidden">
+  <div class="tracking__container">
+    <img src="/assets/general/cookie-8f1d52522f3c594486c3fd5097408c9afb65f820ae542feb16fbf86f5d448050.svg">
+    <p>We’d like to use a cookie to help us understand if our ads are working or not.</p>
+    <button class="deny" data-action="tracking#deny">No</button>
+    <button class="grant" data-action="tracking#grant">Yes, that’s fine</button>
+  </div>
+</div>
+
+  <header class="header">
+
+  <a class="a-screen-reader-text" href="#content">Skip to content</a>
+
+  <nav class="top-nav app-android__hide" role="navigation" id="top">
+    <a class="top-nav__logo" href="/" aria-label="Basecamp">
+      <svg viewBox="0 0 149.8 41.4" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="basecamp-logo-title">
+  <title id="basecamp-logo-title">Basecamp logo</title>
+  <path class="icon" d="m37.9 25.7c-.9 0-1.6-.7-1.7-1.6-.6-8.6-5.3-20.7-14-20.7-7.2 0-12.6 5-16.1 14.9-.3.9-1.3 1.4-2.2 1-.9-.3-1.4-1.3-1-2.1 4-11.4 10.5-17.2 19.3-17.2 11.5 0 16.8 14.6 17.4 23.9.1.9-.6 1.8-1.6 1.8z" fill="#1d2d35"></path>
+  <path class="card card--front" d="m41.9 29-30 12.4-11.9-28.8 5.4-2.2 24.7-10.1z" fill="#ffe000" opacity=".4"></path>
+  <path class="card card--back" d="m40.5 32.3-31.8 6.6-6.3-30.5 5.3-1.1 26.5-5.5z" fill="#ffe000"></path>
+  <path class="icon" d="m21.8 32c-5.8 0-11.4-2.5-15.3-6.9-.5-.4-.6-1.1-.4-1.7 1.1-2.9 4-9.6 7.7-9.7 1.9 0 3.3 1.5 4.4 2.7.3.4.8.9 1.2 1.2.9-.9 2.6-3.7 3.9-6.6.4-.9 1.4-1.2 2.3-.8s1.2 1.4.8 2.3c-4 8.7-6.1 8.7-6.9 8.7-1.6 0-2.7-1.2-3.8-2.4-.5-.5-1.5-1.6-1.9-1.6-.9.1-2.8 3.2-4.1 6.5 3.3 3.3 7.8 5.1 12.4 5 4 0 11.1-.7 14-5-.8-8.6-5.5-20.2-14-20.2-.9 0-1.7-.8-1.7-1.7s.8-1.8 1.8-1.8c11.5 0 16.8 14.6 17.4 23.9 0 .3-.1.7-.2 1-2.7 4.6-8.8 7.2-17.2 7.2-.1-.1-.3-.1-.4-.1z" fill="#1d2d35"></path>
+  <g class="name" fill="#1d2d35">
+    <path d="m46.8 8.5h6.1c3.4 0 5.2 1.4 5.2 4v.1c.1 1.6-1 3-2.5 3.3 1.9.2 3.2 1.8 3.1 3.7v.1c0 2.9-1.9 4.4-5.5 4.4h-6.4zm5.5 6.4c1.7 0 2.4-.6 2.4-2v-.1c0-1.3-.7-1.9-2.4-1.9h-2.1v4zm.4 6.7c1.7 0 2.5-.8 2.5-2.2v-.1c0-1.4-.8-2.2-2.7-2.2h-2.2v4.5z"></path>
+    <path d="m59.6 20.9c0-2.6 2.4-3.6 5.9-3.6h1.3v-.5c0-1.4-.4-2.1-1.8-2.1-.9-.1-1.8.5-1.9 1.5v.1h-3c.2-2.7 2.3-3.9 5.1-3.9s4.8 1.1 4.8 4.2v7.4h-3.1v-1.3c-.8 1.1-2.1 1.7-3.4 1.6-2.2 0-3.9-1-3.9-3.4zm7.2-.8v-1h-1.2c-1.8 0-2.9.4-2.9 1.6 0 .8.5 1.4 1.7 1.4 1.3 0 2.4-.8 2.4-2z"></path>
+    <path d="m71.2 20.5h2.9c.1 1 .6 1.6 2 1.6s1.8-.5 1.8-1.2-.7-1.1-2.3-1.4c-3-.5-4.2-1.3-4.2-3.6s2.1-3.5 4.5-3.5c2.5 0 4.4.9 4.7 3.5h-2.9c-.2-.9-.7-1.4-1.8-1.4s-1.6.5-1.6 1.2.5 1 2.2 1.2c2.8.4 4.4 1.1 4.4 3.6s-1.8 3.8-4.8 3.8-4.8-1.4-4.9-3.8z"></path>
+    <path d="m81.8 18.5v-.2c-.2-3.1 2.2-5.8 5.4-5.9h.5c2.9 0 5.6 1.7 5.6 5.8v.9h-8.3c.1 1.9 1.1 3 2.8 3 1.5 0 2.2-.6 2.4-1.6h3c-.4 2.5-2.3 3.8-5.4 3.8-3.5 0-6-2.2-6-5.8zm8.3-1.4c-.1-1.7-1-2.6-2.5-2.6-1.4 0-2.6 1.1-2.6 2.6z"></path>
+    <path d="m94 18.5v-.2c-.1-3.1 2.3-5.8 5.4-5.9h.5c2.6 0 5.1 1.1 5.3 4.4h-3c-.1-1.1-1.1-2-2.2-1.9-1.6 0-2.7 1.2-2.7 3.4v.2c0 2.3 1 3.5 2.8 3.5 1.3.1 2.4-.9 2.4-2.2h2.8c-.2 2.7-2.1 4.6-5.4 4.6s-5.9-2.2-5.9-5.9z"></path>
+    <path d="m106.1 20.9c0-2.6 2.4-3.6 5.9-3.6h1.3v-.5c0-1.4-.4-2.1-1.8-2.1-.9-.1-1.8.5-1.9 1.5v.2h-3c.2-2.7 2.3-3.9 5.1-3.9s4.8 1.1 4.8 4.2v7.3h-3.1v-1.3c-.8 1.1-2.1 1.7-3.4 1.6-2.2 0-3.9-1-3.9-3.4zm7.1-.8v-1h-1.2c-1.8 0-2.9.4-2.9 1.6 0 .8.5 1.4 1.7 1.4 1.4 0 2.4-.8 2.4-2z"></path>
+    <path d="m118.5 12.7h3.2v1.7c.7-1.3 2-2 3.5-2 1.4-.1 2.7.7 3.2 2 .9-1.3 2.3-2 3.8-2 2.1 0 3.8 1.3 3.8 4.4v7.2h-3.1v-6.9c0-1.5-.6-2.1-1.8-2.1-1.2-.1-2.2.9-2.2 2v.3 6.7h-3.1v-6.9c0-1.5-.7-2.1-1.8-2.1-1.2-.1-2.1.9-2.2 2v.3 6.7h-3.2z"></path>
+    <path d="m138.1 12.7h3.1v1.8c.8-1.3 2.2-2 3.6-2 2.8 0 5 2.1 5 5.8v.2c0 3.8-2.1 5.9-5 5.9-1.5.1-2.9-.7-3.6-2v5.6h-3.1zm8.5 5.7v-.2c0-2.3-1.1-3.4-2.7-3.4s-2.8 1.1-2.8 3.4v.2c0 2.3 1.1 3.4 2.8 3.4s2.7-1.2 2.7-3.4z"></path>
+  </g>
+</svg>
+    </a>
+    <ul class="top-nav__list">
+      <li class="top-nav__list-item"><a class="top-nav__link" href="/how-it-works">How it works</a></li>
+      <li class="top-nav__list-item"><a class="top-nav__link" href="/before-and-after">Before &amp; after</a></li>
+      <li class="top-nav__list-item"><a class="top-nav__link" href="/features/clients">Got clients?</a></li>
+      <li class="top-nav__list-item"><a class="top-nav__link" href="/pricing">Pricing</a></li>
+      <li class="top-nav__list-item"><a class="top-nav__link" href="/support">Support</a></li>
+      <li class="top-nav__list-item"><a class="button button--secondary" href="https://launchpad.37signals.com/signin">Sign in</a></li>
+      <li class="top-nav__list-item"><a class="button" href="https://3.basecamp.com/signup/account/new?plan=one_v1" data-controller="signup" data-action="signup#track">Try it FREE</a></li>
+    </ul>
+  </nav>
+
+  <input type="checkbox" id="hamburger" class="mobile-nav-checkbox app-android__hide">
+  <label class="mobile-nav-button app-android__hide" for="hamburger" aria-label="menu"><span></span></label>
+
+  <nav class="mobile-nav app-android__hide">
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__list-item"><a class="mobile-nav__link" href="/how-it-works">How it works</a></li>
+      <li class="mobile-nav__list-item"><a class="mobile-nav__link" href="/before-and-after">Before &amp; after</a></li>
+      <li class="mobile-nav__list-item"><a class="mobile-nav__link" href="/features/clients">Got clients?</a></li>
+      <li class="mobile-nav__list-item"><a class="mobile-nav__link" href="/pricing">Pricing</a></li>
+      <li class="mobile-nav__list-item"><a class="mobile-nav__link" href="/support">Support</a></li>
+      <li class="mobile-nav__list-item"><a class="mobile-nav__link" href="https://launchpad.37signals.com/signin">Sign in</a></li>
+      <li class="mobile-nav__list-item"><a class="button button--block push--top " href="https://3.basecamp.com/signup/account/new?plan=one_v1" data-controller="signup" data-action="signup#track">Try Basecamp Free</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+
+  <main id="content">
+    <section class="wrapper wrapper--intro">
+  <div class="grid grid--centered grid--formatted centered-medium">
+
+    <h1 class="heading heading--xx-large grid__item grid__item--large">Work better, together.</h1>
+
+    <p class="grid__item grid__item--medium flush--bottom">Basecamp is more than just a project management tool — it’s a better way to work. Teams that switch to Basecamp are more productive and better organized. They communicate better and require fewer meetings. And they’re far more efficient than before. Here’s how Basecamp makes it happen.</p>
+
+    <div class="hiw-video grid__item grid__item--large grid__item--mobile-large">
+      <div class="shadow">
+        <div tabindex="0" class="plyr plyr--full-ui plyr--video plyr--html5 plyr--paused plyr--stopped plyr--pip-supported plyr--fullscreen-enabled plyr--captions-enabled"><div class="plyr__controls"><button class="plyr__controls__item plyr__control" type="button" data-plyr="play" aria-label="Play"><svg class="icon--pressed" role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-pause"></use></svg><svg class="icon--not-pressed" role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-play"></use></svg><span class="label--pressed plyr__sr-only">Pause</span><span class="label--not-pressed plyr__sr-only">Play</span></button><div class="plyr__controls__item plyr__progress__container"><div class="plyr__progress"><input data-plyr="seek" type="range" min="0" max="100" step="0.01" value="0" autocomplete="off" role="slider" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="plyr-seek-3684" style="--value:0%;"><progress class="plyr__progress__buffer" min="0" max="100" value="0" role="progressbar" aria-hidden="true">% buffered</progress><span class="plyr__tooltip">00:00</span></div></div><div class="plyr__controls__item plyr__time--current plyr__time" aria-label="Current time">00:00</div><div class="plyr__controls__item plyr__volume"><button type="button" class="plyr__control" data-plyr="mute"><svg class="icon--pressed" role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-muted"></use></svg><svg class="icon--not-pressed" role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-volume"></use></svg><span class="label--pressed plyr__sr-only">Unmute</span><span class="label--not-pressed plyr__sr-only">Mute</span></button><input data-plyr="volume" type="range" min="0" max="1" step="0.05" value="1" autocomplete="off" role="slider" aria-label="Volume" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" id="plyr-volume-3684" aria-valuetext="100.0%" style="--value:100%;"></div><button class="plyr__controls__item plyr__control" type="button" data-plyr="captions"><svg class="icon--pressed" role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-captions-on"></use></svg><svg class="icon--not-pressed" role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-captions-off"></use></svg><span class="label--pressed plyr__sr-only">Disable captions</span><span class="label--not-pressed plyr__sr-only">Enable captions</span></button><div class="plyr__controls__item plyr__menu"><button aria-haspopup="true" aria-controls="plyr-settings-3684" aria-expanded="false" type="button" class="plyr__control" data-plyr="settings"><svg role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-settings"></use></svg><span class="plyr__sr-only">Settings</span></button><div class="plyr__menu__container" id="plyr-settings-3684" hidden=""><div><div id="plyr-settings-3684-home"><div role="menu"><button data-plyr="settings" type="button" class="plyr__control plyr__control--forward" role="menuitem" aria-haspopup="true"><span>Captions<span class="plyr__menu__value">Disabled</span></span></button><button data-plyr="settings" type="button" class="plyr__control plyr__control--forward" role="menuitem" aria-haspopup="true" hidden=""><span>Quality<span class="plyr__menu__value">undefined</span></span></button><button data-plyr="settings" type="button" class="plyr__control plyr__control--forward" role="menuitem" aria-haspopup="true" hidden=""><span>Loop<span class="plyr__menu__value">undefined</span></span></button></div></div><div id="plyr-settings-3684-captions" hidden=""><button type="button" class="plyr__control plyr__control--back"><span aria-hidden="true">Captions</span><span class="plyr__sr-only">Go back to previous menu</span></button><div role="menu"><button data-plyr="language" type="button" role="menuitemradio" class="plyr__control" aria-checked="true" value="-1"><span>Disabled</span></button><button data-plyr="language" type="button" role="menuitemradio" class="plyr__control" aria-checked="false" value="0"><span>English captions<span class="plyr__menu__value"><span class="plyr__badge">EN</span></span></span></button></div></div><div id="plyr-settings-3684-quality" hidden=""><button type="button" class="plyr__control plyr__control--back"><span aria-hidden="true">Quality</span><span class="plyr__sr-only">Go back to previous menu</span></button><div role="menu"></div></div><div id="plyr-settings-3684-loop" hidden=""><button type="button" class="plyr__control plyr__control--back"><span aria-hidden="true">Loop</span><span class="plyr__sr-only">Go back to previous menu</span></button><div role="menu"></div></div></div></div></div><button class="plyr__controls__item plyr__control" type="button" data-plyr="pip"><svg role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-pip"></use></svg><span class="plyr__sr-only">PIP</span></button><button class="plyr__controls__item plyr__control" type="button" data-plyr="fullscreen"><svg class="icon--pressed" role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-exit-fullscreen"></use></svg><svg class="icon--not-pressed" role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-enter-fullscreen"></use></svg><span class="label--pressed plyr__sr-only">Exit fullscreen</span><span class="label--not-pressed plyr__sr-only">Enter fullscreen</span></button></div><div class="plyr__video-wrapper"><video poster="/assets/how-it-works/how-it-works-1080p-5cf8d2a3ca25a1d1ada64b629f656142339e70f56e96a4e35debcff233d69204.jpg" class="plyr" playsinline="" preload="none">
+          <source src="/assets/how-it-works/how-it-works-1080p-d8607238e5438def53017c98c0c3ca3601d5294fac50e9c9f5644ace406de399.mp4" type="video/mp4">
+          <track kind="captions" label="English captions" src="/assets/how-it-works/how-it-works-1080p-e2cbd0929817437e043e721b903b2748320b0a1f663a4a222de91ed059729770.vtt" srclang="en" default="">
+        </video></div><div class="plyr__captions"></div><button type="button" class="plyr__control plyr__control--overlaid" data-plyr="play" aria-label="Play"><svg role="presentation" focusable="false"><use xlink:href="/assets/general/plyr-4846018760f6e11a8a1dea7639a5c75c712f198d978eccf117840820bb8c37d7.svg#plyr-play"></use></svg><span class="plyr__sr-only">Play</span></button></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="wrapper bg-butcher-paper">
+  <div class="grid grid--centered grid--formatted">
+
+    <h2 class="hiw-break heading centered-medium grid__item grid__item--medium push_half--top">Get organized and stay that way with Basecamp projects.</h2>
+
+    <picture class="grid__item grid__item--medium push--bottom">
+      <source srcset="/assets/how-it-works/projects-narrow@2x-37d580b83548a847afa94bd72700a26401c0891f7aeb2e492fb64a813235f300.jpg" media="(max-width: 600px)">
+      <source srcset="/assets/how-it-works/projects-a33227fd5f0e5edfd6b3beccc84a3de38cbc4cfd951d59db495cc2e66a98240a.jpg 1x, /assets/how-it-works/projects@2x-e083818f9afe220dd1d67c33e05c13d9bdf36f80b4ca804978c470be89aeff67.jpg 2x" media="(min-width: 601px)">
+      <img width="1850" height="580" src="/assets/how-it-works/projects-a33227fd5f0e5edfd6b3beccc84a3de38cbc4cfd951d59db495cc2e66a98240a.jpg" alt="Split your work into projects. Add whoever needs to be involved." loading="lazy">
+    </picture>
+
+    <p class="centered-medium grid__item grid__item--medium">With Basecamp, you break up your work into separate projects. Each project contains <em>everything</em> related to the work at hand; all the people involved, every discussion, every document, file, task, important date, etc. Everything!</p>
+
+    <p class="centered-medium grid__item grid__item--medium"><strong>How it's better:</strong> unlike email where everything starts disorganized and you have to constantly manage the chaos, Basecamp projects keep everything organized by default. Things are always where you expect, and it's obvious where to put stuff.</p>
+
+    <h2 class="heading centered-medium grid__item grid__item--large push--top">Inside every project; all the tools teams need to get work done.</h2>
+
+    <div class="bc-tools grid__item grid__item--large push--top" data-bctools="">
+
+      <nav class="bc-tools__nav" data-bctools-nav="">
+        <a class="bc-tools__item bc-tools__item--pulse" href="/features#message-boards" data-tool="messages" style="animation-delay: 0s;">
+          <h3 class="bc-tools__title">Message Board</h3>
+          <img class="bc-tools__icon" src="/assets/3/icons/messages-3362b580bdf21b3b47eed9b7ca9de3c3e279e52a9627bc1646b843442cdacea5.svg" alt="message board icon">
+          <p class="bc-tools__summary">Post announcements, pitch ideas, progress updates, etc. and keep feedback on-topic.</p>
+        </a>
+        <a class="bc-tools__item bc-tools__item--pulse" href="/features#to-dos" data-tool="todos" style="animation-delay: 0.15s;">
+          <h3 class="bc-tools__title">To-dos</h3>
+          <img class="bc-tools__icon" src="/assets/3/icons/todos-89bef7864666747be6cfb329bb4c4018c0d75a87fa7da93f2c7d5dd1ac4fac29.svg" alt="to-dos icon">
+          <p class="bc-tools__summary">Make lists of work that needs to get done, assign items, set due dates, and discuss.</p>
+        </a>
+        <a class="bc-tools__item bc-tools__item--pulse" href="/features#schedules" data-tool="schedules" style="animation-delay: 0.3s;">
+          <h3 class="bc-tools__title">Schedule</h3>
+          <img class="bc-tools__icon" src="/assets/3/icons/schedules-86f8d497d3d1373900e41ad78b06e7bdb7cd3a0560b2f630521c0d28dc5644ce.svg" alt="schedule icon">
+          <p class="bc-tools__summary">Set important dates on a shared schedule. Subscribe to events in Google Cal, iCal, or Outlook.</p>
+        </a>
+        <a class="bc-tools__item bc-tools__item--pulse" href="/features#docs-files" data-tool="docs" style="animation-delay: 0.45s;">
+          <h3 class="bc-tools__title">Docs &amp; Files</h3>
+          <img class="bc-tools__icon" src="/assets/3/icons/docs-d01e203dbb9d4c8550c004fcc534c5e1fff6086c65864f0e81d612b49f4294a0.svg" alt="docs icon">
+          <p class="bc-tools__summary">Share docs, files, images, and spreadsheets. Organize in folders so they’re easy to find.</p>
+        </a>
+        <a class="bc-tools__item bc-tools__item--pulse" href="/features#campfires" data-tool="chat" style="animation-delay: 0.6s;">
+          <h3 class="bc-tools__title">Group Chat</h3>
+          <img class="bc-tools__icon" src="/assets/3/icons/chat-e2534f29e044a125769b0b5d315755dbcb5955604fac2eb2667b3d6ea622d2c5.svg" alt="chat icon">
+          <p class="bc-tools__summary">Chat casually with the group, ask random questions, and share stuff without ceremony.</p>
+        </a>
+        <a class="bc-tools__item bc-tools__item--pulse" href="/features#checkins" data-tool="checkins" style="animation-delay: 0.75s;">
+          <h3 class="bc-tools__title">Automatic Check-ins</h3>
+          <img class="bc-tools__icon" src="/assets/3/icons/checkin-22b02e57924978ed53d1c46934115df02c44feafb4e20f869f94bc23417e4b7d.svg" alt="check-in icon">
+          <p class="bc-tools__summary">Create recurring questions so you don't have to pester your team about what’s going on.</p>
+        </a>
+      </nav>
+      
+      <div class="bc-tools__modal" data-bctools-content="">
+
+        <button class="bc-tools__close" data-bctools-close=""><img src="/assets/general/x-white-eed6fbb423c4ddeb8c28bdafc8ef87535c6f594d7dc7aec84db8281c121e864b.svg" alt="close"></button>
+
+        <div class="bc-tools__card" data-card="messages">
+          <div class="bc-tools__screen bc-tools__screen--messages" aria-label="screenshot of the messages tool"></div>
+          <div class="bc-tools__caption">
+            <p><strong>Message Boards</strong> keep entire conversations together on a single page. No more digging through email or trying to reassemble a story from fragmented replies.</p>
+            <p class="small flush--bottom"><strong>Go <em>FROM</em> “No one copied me on that email!?” <em>TO</em> organized discussions everyone can see.</strong></p>
+          </div>
+        </div>
+
+        <div class="bc-tools__card" data-card="todos">
+          <div class="bc-tools__screen bc-tools__screen--todos" aria-label="screenshot of the to-do list tool"></div>
+          <div class="bc-tools__caption">
+            <p>Create <strong>To-do Lists</strong> for all the work you need to do, assign tasks, and set due dates. Basecamp will follow up on overdue tasks for you.</p>
+            <p class="small flush--bottom"><strong>Go <em>FROM</em> “I thought you were supposed to do that!” <em>TO</em> clear accountability and visibility into everyone’s responsibilities.</strong></p>
+          </div>
+        </div>
+
+        <div class="bc-tools__card" data-card="schedules">
+          <div class="bc-tools__screen bc-tools__screen--schedules" aria-label="screenshot of the schedule tool"></div>
+          <div class="bc-tools__caption">
+            <p>Every project in Basecamp includes a <strong>Schedule</strong> that displays any dated to-dos and events for that project. Everyone on the project can see it, so they’ll all know what’s coming up.</p>
+            <p class="small flush--bottom"><strong>Go <em>FROM</em> “The meeting was when!?” <em>TO</em> a shared schedule everyone can see.</strong></p>
+          </div>
+        </div>
+
+        <div class="bc-tools__card" data-card="chat">
+          <div class="bc-tools__screen bc-tools__screen--chat" aria-label="screenshot of the chat tool"></div>
+          <div class="bc-tools__caption">
+            <p>Basecamp’s <strong>real-time group chat (Campfires)</strong> lets you ask quick questions and get equally quick answers. All without reaching for a separate app.</p>
+            <p class="small flush--bottom"><strong>Go <em>FROM</em> “I’m being notified to death!” <em>TO</em> working without constant distractions.</strong></p>
+          </div>
+        </div>
+
+        <div class="bc-tools__card" data-card="docs">
+          <div class="bc-tools__screen bc-tools__screen--docs" aria-label="screenshot of the docs and files tool"></div>
+          <div class="bc-tools__caption">
+            <p>Every project includes a space to share <strong>documents, files, and images</strong>. Since everyone on the project has access, people will know exactly where to find everything.</p>
+            <p class="small flush--bottom"><strong>Go <em>FROM</em> “I saw it, but have no idea where.” <em>TO</em> a predictable place for everything.</strong></p>
+          </div>
+        </div>
+
+        <div class="bc-tools__card" data-card="checkins">
+          <div class="bc-tools__screen bc-tools__screen--checkins" aria-label="screenshot of the automatic check-ins tool"></div>
+          <div class="bc-tools__caption">
+            <p>Stop wasting time on status meetings. <strong>Automatic Check-ins</strong> let you ask your team questions on a regular basis, with all the replies rolled up in one easy-to-digest thread.</p>
+            <p class="small flush--bottom"><strong>Go <em>FROM</em> “Didn’t we already meet about this?” <em>TO</em> more time for productive work.</strong></p>
+          </div>
+        </div>
+
+      </div>
+
+    </div><div class="bc-tools__overlay" data-bctools-overlay=""></div>
+
+    <p class="centered-medium grid__item grid__item--medium">Every project includes the tools all teams need to work together; <strong>message boards, to-dos, schedules, docs, file storage, real-time group chat, and automatic check-in questions</strong>. You can rename them, turn off the ones you don’t need, or <a href="/extras">integrate with third-party tools</a> like time trackers to tailor things to the project at hand.</p>
+
+    <p class="centered-medium grid__item grid__item--medium"><strong>How it's better:</strong> spreading work across a bunch of apps is inefficient at best; total chaos at worst. Things slip through the cracks, it’s hard to see the big picture, it’s expensive, onboarding your team is a pain, etc. Basecamp eliminates <em>all</em> of those issues by combining everything you need in one place. It’s “easy mode” for work.</p>
+
+    <h2 class="heading centered-medium grid__item grid__item--medium push--top">Work-life balance just got real.</h2>
+
+    <figure class="grid__item grid__item--medium push--bottom">
+      <img width="1582" height="610" loading="lazy" class="shadow" srcset="/assets/how-it-works/wcw-267c95bb0e0007900cde8b6e06fa840536b9269ea3bc12ee41ec3750d68d0b2a.jpg 1x, /assets/how-it-works/wcw@2x-3a02e31c9830db7c843c51d5c78c420a35b212f7239e635f67290a6a50ff7787.jpg 2x" src="/assets/how-it-works/wcw-267c95bb0e0007900cde8b6e06fa840536b9269ea3bc12ee41ec3750d68d0b2a.jpg" alt="the 'Work can Wait' screen in Basecamp">
+    </figure>
+
+    <p class="centered-medium grid__item grid__item--medium">When people post messages in the projects you’re on, assign you tasks, etc. notifications pop up in Basecamp’s Hey! menu (or email, if you like). Need to focus? Pause notifications with a click and stay in the zone. Want to keep work at work? Set your work hours to hold notifications until you’re back on the clock.</p>
+
+    <p class="centered-medium grid__item grid__item--medium"><strong>How it’s better:</strong> a constant barrage of notifications from a half dozen apps steals your attention and lets work intrude on personal time. By centralizing your notifications, Basecamp makes it easy to keep on top of things <em>and</em> minimize interruptions.</p>
+
+    <h2 class="heading centered-medium grid__item grid__item--medium push--top">Keep everyone in the loop without all the meetings.</h2>
+
+    <p class="centered-medium grid__item grid__item--medium">An essential part of every project is keeping people informed so that nothing falls through the cracks and everyone knows what to do. Basecamp makes it easy to see the big picture <em>and</em> the nitty gritty. Whether you’re a CEO, a project manager, or an individual contributor, Basecamp has you covered.</p>
+
+    <div class="grid grid--row grid--row-reverse grid__item grid__item--large push--bottom">
+      <div class="grid__item grid__item--half">
+        <h3 class="subheading flush--top">For owners and execs</h3>
+        <p>Automatic check-in questions like <em>“what are you working on this week?”</em> and <em>“what did you work on today?”</em> give you a quick, easy way to see the broad strokes of what everyone is doing. Perfect for keeping your finger on the pulse without getting bogged down.</p>
+      </div>
+      <div class="grid__item grid__item--half grid__item--mobile-large">
+         <img width="1100" height="674" loading="lazy" class="shadow" srcset="/assets/how-it-works/checkins-1b52cf59a88be4af9d5715fb326c1d815409913178b4472b8ac8677d98408154.jpg 1x, /assets/how-it-works/checkins@2x-4d2ebddedbd8f7bf80e1f45b8243ecf4c97e76cb6c3b424c023f877f0c691ab2.jpg 2x" src="/assets/how-it-works/checkins-1b52cf59a88be4af9d5715fb326c1d815409913178b4472b8ac8677d98408154.jpg" alt="example checkin questions">
+      </div>
+    </div>
+
+    <div class="grid grid--row grid__item grid__item--large push--bottom">
+      <div class="grid__item grid__item--half">
+        <h3 class="subheading flush--top">For managers</h3>
+        <p>Basecamp’s activity view gives you one place to see everything that’s going on. You can see all the tasks that are overdue, all the work that’s due soon, everything that’s on someone’s plate, upcoming milestones, and more.</p>
+      </div>
+      <div class="grid__item grid__item--half grid__item--mobile-large">
+        <img width="1100" height="630" loading="lazy" class="shadow" srcset="/assets/how-it-works/activity-811a5b35d93100e52b77a1b04bb51786963693274d6040f8a9b7f7d09500fa00.jpg 1x, /assets/how-it-works/activity@2x-ab639361d78ed0860ae6602366a52e8c59a72faecbe96a43b4e1ab2b3dc2a686.jpg 2x" src="/assets/how-it-works/activity-811a5b35d93100e52b77a1b04bb51786963693274d6040f8a9b7f7d09500fa00.jpg" alt="overdue to-dos in Basecamp">
+      </div>
+    </div>
+
+    <div class="grid grid--row grid--row-reverse grid__item grid__item--large push--bottom">
+      <div class="grid__item grid__item--half">
+        <h3 class="subheading flush--top">For individuals</h3>
+        <p>Basecamp’s “My stuff” menu lets you see everything that’s on your plate. Your assignments across every project, your schedules, things that you've bookmarked, etc. Want to catch up on a project? Scroll through the project's activity to catch up quick.</p>
+      </div>
+      <div class="grid__item grid__item--half grid__item--mobile-large">
+        <img width="962" height="582" loading="lazy" class="shadow" srcset="/assets/how-it-works/mystuff-1edc1fdc908dd73c5946dc5363f379d6f0219dc6760932304f8d712daaa79222.jpg 1x, /assets/how-it-works/mystuff@2x-4a812e7df0c7e3c5fc1677ae9afa8dad0fa3d14c2655cd7b351d55ee32b8b560.jpg 2x" src="/assets/how-it-works/mystuff-1edc1fdc908dd73c5946dc5363f379d6f0219dc6760932304f8d712daaa79222.jpg" alt="the 'My Stuff' screen in Basecamp">
+      </div>
+    </div>
+
+    <p class="centered-medium grid__item grid__item--medium push--top"><strong>How it’s better:</strong> most teams spend too much time and money on status meetings and daily standups. Basecamp gives you the tools to keep everyone in the loop without meetings, freeing up time for productive work that moves projects forward.</p>
+
+    <h2 class="heading centered-medium grid__item grid__item--medium push--top">Keep projects on track with Hill Charts — a Basecamp exclusive.</h2>
+
+    <figure class="grid__item grid__item--medium push--bottom">
+      <img width="909" height="375" loading="lazy" src="/assets/3/hill-charts/uncertainty-certainty-4c45b447c69fab12bb84921b6ea7836fcf055f8d5ac64b07bac272a0cd2f0fa7.svg" alt="the uphill and downhill phases of a project">
+    </figure>
+
+    <p class="centered-medium grid__item grid__item--medium"><em>“4 out of 5 tasks completed”</em> doesn’t tell you if things are on track. That last to-do could be a monster that derails your entire project. Enter <a href="/features/hill-charts">Basecamp’s Hill Charts</a>. They work alongside to-dos to show you <em>exactly</em> where projects really stand.</p>
+
+    <p class="centered-medium grid__item grid__item--medium"><strong>How it’s better:</strong> Gantt charts are  guesses that don’t match reality. Counting open to-do’s won’t tell you if people are stuck. Hill Charts give you the missing context that lets you spot problems and course correct <em>before</em> blowing deadlines.</p>
+
+    <h2 class="heading centered-medium grid__item grid__item--medium push--top">The only tool you need to run your entire business.</h2>
+
+    <figure class="grid__item grid__item--medium push--bottom">
+      <img width="1560" height="756" loading="lazy" class="shadow" srcset="/assets/how-it-works/hq-teams-bb840d7c62e6e6de4e896fce9c1c1419613ef3cfc3e6253bfe2241a555a4ba63.jpg 1x, /assets/how-it-works/hq-teams@2x-bd5b574cc8c6dbadef4565af8dc8d1fd00cf09c833a336907233f67d989a3a3e.jpg 2x" src="/assets/how-it-works/hq-teams-bb840d7c62e6e6de4e896fce9c1c1419613ef3cfc3e6253bfe2241a555a4ba63.jpg" alt="the company HQ and team projects">
+    </figure>
+
+    <p class="centered-medium grid__item grid__item--medium">Basecamp isn’t just for managing projects — it’s great for running your business too. Use the dedicated Company HQ to make announcements, store employee docs, or socialize around the Campfire. Team spaces give people a way to collaborate on everything that falls outside of project work.</p>
+
+    <p class="centered-medium grid__item grid__item--medium"><strong>How it's better:</strong> By combining your company’s communication and project work in one place, Basecamp lets your entire team rally around a single app for day to day work. One tool to learn. One place to check for notifications. No more constant switching between group chat and your project management app.</p>
+
+  </div>
+</section>
+
+<section class="wrapper">
+  <div class="grid grid--centered centered-medium">
+
+    <p class="subheading centered-medium grid__item grid__item--medium pull--top"><strong><a href="/features">Take a look at the complete list of features in Basecamp</a>. Or, if you're ready:</strong></p>
+
+    <div class="grid__item grid__item--medium">
+      <div class="cta push--top">
+  <a class="button button--primary" href="/pricing">Give Basecamp a Try</a>
+  <p class="x-small"><span data-signups="">3,463</span> companies signed up in the last week alone!</p>
+</div>
+
+    </div>
+
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer app-android__hide">
+
+  <div class="grid">
+    <p class="x-small grid__item grid__item--medium">
+      <strong>Basecamp apps:</strong> <a href="/via">iOS, Android, Mac, and PC</a>, <a href="/extras">integrations</a>.
+      <br class="linebreak">
+      <strong>Company:</strong> <a href="/about">about us</a>, <a href="https://rework.fm/">podcast</a>, <a href="https://signalvnoise.com/">blog</a>, <a href="/books">books</a>, <a href="/handbook">handbook</a>, <a href="/newsletter">newsletter</a>.
+      <br class="linebreak">
+      <strong>Guides:</strong> <a href="/remote-resources">going remote</a>, <a href="/guides/how-we-communicate">team communication</a>, <a href="/guides/group-chat-problems">group chat: group stress</a>.
+      <br class="linebreak">
+      <strong>Our new app:</strong> <a href="https://hey.com">HEY - email at its best</a>.
+      <br class="linebreak">
+      <strong>Fine print:</strong> <a href="/rights">customer rights</a>, <a href="/about/policies">privacy &amp; terms</a>, <a href="/uptime/bc3">uptime</a>, <a href="/status">system status</a>.
+    </p>
+    <p class="xx-small grid__item grid__item--medium"><em>Copyright ©1999-2022 Basecamp. All rights reserved. <br>Enjoy the rest of your <span data-day="">Tuesday</span>!</em></p>
+  </div>
+  
+</footer>
+
+
+
+<iframe src="https://mozbar.moz.com/bartender/third-party/start" style="display:none"></iframe>
+</body></html>
